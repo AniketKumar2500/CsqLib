@@ -11,7 +11,7 @@ class List:
   return sum_/len(arg[0])
  def len:
   return len(arg[0])
- def append:
+ def push:
   arr := arg[0]
   ind := -1
   args_ := {}
