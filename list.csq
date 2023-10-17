@@ -1,0 +1,22 @@
+class List:
+ def sum:
+  sum_ := 0
+  for i in arg[0]:
+   sum_ = sum_ + i
+  return sum_
+ def mean:
+  sum_ := 0
+  for i in arg[0]:
+   sum_ = sum_ + i
+  return sum_/len(arg[0])
+ def len:
+  return len(arg[0])
+ def append:
+  arr := arg[0]
+  ind := -1
+  args_ := {}
+  for i in arg:
+   if ind >= 0:
+    args_ = push(args_,i)
+   ind = ind + 1
+  return push(arg[0],args_[0])
