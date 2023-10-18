@@ -1,4 +1,6 @@
+_null_list := {}
 class List:
+ list := _null_list
  def sum:
   sum_ := 0
   for i in arg[0]:
